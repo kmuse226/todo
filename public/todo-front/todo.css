@@ -1,0 +1,133 @@
+.now-user,
+.ask-todo,
+.todo-list,
+.out {
+    display: none;
+}
+
+/* body {
+    background-color: grey;
+    color:black;
+} */
+
+.bgImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    animation:fadeIn 0.5s linear
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.hide{
+    display: none;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+
+.center .ask-name input,
+.center .sign-up input,
+.center .ask-todo input {
+appearance: none;
+background: none;
+border: none;
+color: pink;
+font-size: 36px;
+border-bottom: 3px solid rgba(255, 255, 255, 0.8);
+margin-bottom: 20px;
+}
+.center  .ask-name input::placeholder {
+color: pink;
+opacity: 0.7;
+}
+.center  .sign-up input::placeholder {
+  color: pink;
+  opacity: 0.7;
+  }
+  .center  .ask-todo input::placeholder {
+    color: pink;
+    opacity: 0.7;
+    }
+.center .ask-name input:focus,
+.center .ask-name input:active {
+  outline: none;
+}
+.center .sign-up input:focus,
+.center .sign-up input:active {
+  outline: none;
+}
+.center .ask-todo input:focus,
+.center .ask-todo input:active {
+  outline: none;
+}
+
+.center .now-user {
+  font-size: 50px;
+  margin-bottom: 20px;
+  color:pink
+}
+
+.loading {
+  font-size: 50px;
+  margin-bottom: 20px;
+  color:pink;
+}
+
+.loading-signup {
+  font-size: 50px;
+  margin-bottom: 20px;
+  color:pink;
+}
+.center .now-user {
+  margin-bottom: 30px;
+}
+
+.todo-list {
+    margin-bottom: 20px;
+  }
+  
+.todo-list li {
+font-size: 35px;
+color:pink;
+}
+
+.todo-list button {
+margin-right: 10px;
+cursor: pointer;
+}
+
+.clock {
+    font-size: 7em;
+    color:white;
+}
+
+.weather {
+  color:white;
+    position: absolute;
+    font-style: italic;
+    font-size: 20px;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+  }
+
+/**/
+
+  
+  
+  
+  
+
+
+
+

@@ -1,0 +1,65 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/todo-front/reset.css">
+    <link rel="stylesheet" href="/todo-front/todo.css">
+    <title>Todo-list</title>
+</head>
+<body>
+    <br /><br /><br /><br />
+    <section class="center">
+        <header>
+            <div><h1 class="clock"></h1></div>
+            <div class="weather"></div>
+        </header>
+        <br /><br /><br /><br />
+        <main>
+            <form class="ask-name" style="display: none;">
+                <input type="text" name="name" placeholder="what is your name?" />
+                <br /><br />
+                <input type="password" name="pass" placeholder="password" />
+                <br /> <br />
+                <button type="submit">Sign In</button>
+            </form>
+            <div class="loading" style="display: none;">
+                <h1>Loading...</h1>
+            </div>
+            <br /> <br /> <br /> <br /> <br />
+            <form class="sign-up" style="display: none;">
+                <input type="text" name="user" placeholder="Sign up your name" />
+                <br /><br />
+                <input type="password" name="pass" placeholder="password" />
+                <br /><br />
+                <input type="password" name="pass-confirm" placeholder="password-confirm" />
+                <br /><br />
+                <button type="submit">Sign Up</button>
+            </form>
+            <div class="loading-signup" style="display: none;">
+                <h1>Signup Loading...</h1>
+            </div>
+            <div class="now-user">Hello user</div>
+            <br>
+            <form class="ask-todo" style="display: none;">
+                <input type="text" name="todo" placeholder="what is your plan?">
+                <button type="submit">Submit</button>
+            </form>
+            <ul class="todo-list"><li>Todo</li></ul>
+        </main>
+            <br>
+        <footer>
+            <div class="select hide">
+                <button class="all-showing">All</button>
+                <button class="active-showing">Active</button>
+                <button class="completed-showing">Completed</button>
+           </div>
+           <br>&nbsp<br>&nbsp
+            <div><button class="clear-all hide">clearAll</button></div>
+            <br /><br />
+            <button type="submit" class="out">signOut</button>
+        </footer>
+    </section>
+    <script src="/todo-front/todo.js"></script>
+    <script src="/todo-front/bg.js"></script>
+</body>
+</html>
