@@ -14,7 +14,7 @@ const clearAll = document.querySelector(".clear-all");
 const loading = document.querySelector(".loading");
 const loadingSignUp = document.querySelector(".loading-signup");
 // add comment
-// add another comment
+// add another comment 3
 let userInfo;
 
 const clockInit = () => {
