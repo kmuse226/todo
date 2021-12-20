@@ -13,7 +13,7 @@ const signUpForm = document.querySelector('.sign-up')
 const clearAll = document.querySelector('.clear-all');
 const loading = document.querySelector('.loading');
 const loadingSignUp = document.querySelector('.loading-signup');
-
+// add comment
 let userInfo;
 
 const clockInit = () => {
