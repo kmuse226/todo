@@ -1,6 +1,6 @@
 const body = document.querySelector('body');
 /**
- * test git merge 2
+ * test git merge 2 + 3
  */
 
 const IMG_NUMBER = 3;
